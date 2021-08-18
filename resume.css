@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /*.container {
+    width: 80%;
+    display: flex;
+    
+    justify-content: center;
+    margin: auto;
+    box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+    margin-top: 1em;
+    margin-bottom: 10px;
+    
+  }*/
+  .left {
+    width: 30%;
+    background: rgba(5, 5, 150, 0.63);
+    padding: 3em 2em;
+    position: relative;
+    color: white;
+  
+  }
+  .profile-img{
+      height: 180px;
+      width: 180px;
+      border-radius: 50%;
+      background: white;
+      margin-left: 2em;
+  }
+  .left h4{
+      margin-top: 10px;
+      margin-left: 50px;
+      padding: 10px;
+  }
+  .left p{
+      letter-spacing: 1px;
+      margin-left: 38px;
+  }
+  .profile-circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: rgb(18, 245, 245);
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+.profile-imgg{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background: white;
+   
+}
+.pro-circle{
+    margin-top: 60px;
+   
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+  .right {
+    width: 70%;
+    background: rgb(252, 252, 252);
+    padding: 3em 2em;
+    position: relative;
+    color: black;
+  }
+  .right h2{
+      padding: 10px;
+      color: rgb(51, 51, 51);
+  }
+  .right p{
+      letter-spacing: 1px;
+      line-height: 20px;
+     
+  }
+  .skills-box{
+      height: 30px;
+      background-color:rgb(5, 0, 19) ;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 90%;
+      color: white;
+  }
+  .skills-box p{
+      margin-left: 80%;
+      padding: 5px;
+  }
+  .skills-circle{
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+    border: 5px solid rgb(5, 0, 19);
+    position: absolute;
+    left: 80%;
+    top: 12%;
+}
+.skills{
+    padding: 5px;
+    margin: 15px;
+    border-left: 5px solid  rgb(18, 245, 245);
+    border-bottom: 5px solid rgb(18, 245, 245) ;
+    width: 20%;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+.exp-circle{
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+    border: 5px solid rgb(5, 0, 19);
+    position: absolute;
+    left: 3%;
+    top: 32%;
+}
+.exp{
+    margin:0 20px;
+    padding: 1em;
+    box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+}
+/*.expo{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}*/
+.date{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.exp-box p{
+    margin-left: 80%;
+    padding: 5px;
+}
+.exp-box{
+    height: 30px;
+    background-color:rgb(5, 0, 19) ;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 95%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.edu-box{
+    height: 30px;
+    background-color:rgb(5, 0, 19) ;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 95%;
+    color: white;
+}
+.edu-box p{
+    margin-left: 70%;
+    padding: 5px;
+}
+
+.edu-circle{
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+    border: 5px solid rgb(5, 0, 19);
+    position: absolute;
+    left: 80%;
+    top: 53.5%;
+}
+.educate{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+.edu{
+    padding: 1em;
+    border: 1px solid rgb(18, 245, 245);
+    box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 5px;
+    
+}
+#contact{
+    margin-left: 40%;
+}
+.social{
+    padding: 5px;
+    margin: 15px;
+    border-left: 1px solid  rgb(18, 245, 245);
+    border-right: 1px solid rgb(18, 245, 245);
+    width: 36%;
+    margin-left: 31%;
+    font-weight: 510;
+    
+}
+.hng-img{
+    margin-top: 3em;
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+@media screen and (min-width: 769px){
+    .mobile{
+        display: none;
+    }
+    body {
+        background: #fff;
+        font-family: lato, sans-serif;
+        background: linear-gradient(rgb(217, 217, 228), rgb(214, 203, 214));
+      }
+    .container {
+        width: 80%;
+        display: flex;
+        
+        justify-content: center;
+        margin: auto;
+        box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+        margin-top: 1em;
+        margin-bottom: 10px;
+        
+      }
+      .expo{
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .right{
+        display: none;  
+    }
+  
+    body{
+        background-color:whitesmoke ;
+        font-family: lato, sans-serif;
+    }
+   
+    .left{
+        
+        background-color: rgba(5, 5, 150, 0.63);
+        width: auto;
+        height: auto;
+        color: rgb(253, 253, 253);
+       
+        
+    }
+    .none{
+        display: none;
+    }
+    .mobile{
+        background-color: whitesmoke;
+    }
+   
+    .exp{
+        margin:20px 20px;
+        padding: 1em;
+        box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+        color: black;
+        background-color: white;
+        border-radius: 3px;
+    }
+    .expo{
+        margin-top: 1em;
+        display: grid;
+        
+        
+    }
+    .exp-box p{
+        margin-left: 30%;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+    }
+    .exp-box{
+        height: 30px;
+        background-color: rgba(5, 5, 150, 0.63);
+        margin-top: 60px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: rgb(44, 44, 44);
+    }
+    .skills{
+        width: 60%;
+    }
+   
+   
+    #ed{
+       margin: auto;
+       margin-left: 30%;
+       margin-top: 2em;
+       color: rgb(56, 56, 56);
+
+    }
+    .edu{
+        margin: 10px;
+        background-color: white;
+        box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+        border: none;
+        border-radius: 5px;
+    }
+    .hng-img{
+        margin: 1em ;
+        margin-left: 2em;
+        
+        height: 70px;
+        width: 80%;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    
+
+
+
+
+ }
+
+

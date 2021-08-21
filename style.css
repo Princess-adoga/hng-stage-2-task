@@ -21,6 +21,7 @@
     padding: 3em 2em;
     position: relative;
     color: white;
+    box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
   
   }
   .profile-img{
@@ -29,7 +30,12 @@
       border-radius: 50%;
       background: white;
       margin-left: 2em;
+     
   }
+     
+  
+
+
   .left h4{
       margin-top: 10px;
       margin-left: 50px;
@@ -47,14 +53,35 @@
     background: rgb(18, 245, 245);
     margin-left: 1em;
     margin-bottom: 1.5em;
+    animation-name: profile;
+    position: relative;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes profile{
+    0%{left: -50px}
+    100%{left:20px}
+}
+
+
 .profile-imgg{
     height: 180px;
     width: 180px;
     border-radius: 50%;
     background: white;
-   
+    animation-name: round;
+    animation-duration: 1s;
+    animation-delay: 1s;
 }
+
+@keyframes round{
+    0%{top: -50px}
+    100%{top:100px}
+}
+   
+
 .pro-circle{
     margin-top: 60px;
    
@@ -93,7 +120,7 @@
   }
   .skills-box{
       height: 30px;
-      background-color:rgb(5, 0, 19) ;
+      background-color:rgba(5, 5, 150, 0.63) ;
       margin-top: 30px;
       margin-bottom: 20px;
       width: 90%;
@@ -111,7 +138,7 @@
     border: 5px solid rgb(5, 0, 19);
     position: absolute;
     left: 80%;
-    top: 12%;
+    top: 11%;
 }
 .skills{
     padding: 5px;
@@ -138,12 +165,16 @@
     border: 5px solid rgb(5, 0, 19);
     position: absolute;
     left: 3%;
-    top: 32%;
+    top: 31%;
 }
 .exp{
     margin:0 20px;
     padding: 1em;
     box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
+}
+.exp p{
+    line-height: 1.7;
+
 }
 /*.expo{
     margin-top: 3em;
@@ -161,7 +192,7 @@
 }
 .exp-box{
     height: 30px;
-    background-color:rgb(5, 0, 19) ;
+    background-color:rgba(5, 5, 150, 0.63) ;
     margin-top: 60px;
     margin-bottom: 20px;
     width: 95%;
@@ -177,7 +208,7 @@
 
 .edu-box{
     height: 30px;
-    background-color:rgb(5, 0, 19) ;
+    background-color:rgba(5, 5, 150, 0.63) ;
     margin-top: 60px;
     margin-bottom: 20px;
     width: 95%;
@@ -196,7 +227,7 @@
     border: 5px solid rgb(5, 0, 19);
     position: absolute;
     left: 80%;
-    top: 53.5%;
+    top: 55%;
 }
 .educate{
     margin-top: 3em;
@@ -250,9 +281,9 @@
         display: none;
     }
     body {
-        background: #fff;
+        background: rgb(86, 4, 179);
         font-family: lato, sans-serif;
-        background: linear-gradient(rgb(217, 217, 228), rgb(214, 203, 214));
+        background: linear-gradient( white, rgb(203, 203, 235), rgb(80, 16, 253));
       }
     .container {
         width: 80%;
@@ -317,7 +348,18 @@
         color: black;
         background-color: white;
         border-radius: 3px;
+        position: relative;
+        animation-name: edu-animate;
+        animation-duration: 1.2s;
+        animation-delay: 1s;
+        animation-timing-function: linear;
     }
+    @keyframes edu-animate{
+        0%{  left: -400px; opacity: 1; }
+        
+        100%{  left: 20px; opacity: 15; }
+    }
+
     .expo{
         margin-top: 1em;
         display: grid;
@@ -325,7 +367,7 @@
         
     }
     .exp-box p{
-        margin-left: 30%;
+        margin-left: 35%;
         padding: 5px;
         color: rgb(255, 255, 255);
     }
@@ -345,7 +387,7 @@
     #ed{
        margin: auto;
        margin-left: 30%;
-       margin-top: 2em;
+       margin-top: 3em;
        color: rgb(56, 56, 56);
 
     }
@@ -355,7 +397,22 @@
         box-shadow: 5px 8px 19px rgba(0,0,0,0.2);
         border: none;
         border-radius: 5px;
+        position: relative;
+        animation-name: rund;
+        animation-duration: 1s;
+        animation-delay: 4s;
+        
     }
+  
+    @keyframes rund{
+        0%{top: -50px}
+        100%{top:30px}
+    }
+      
+
+
+
+
     .hng-img{
         margin: 1em ;
         margin-left: 2em;
@@ -366,6 +423,51 @@
         padding: 10px;
     }
     
+    .profile-circle{
+       
+        animation-name: profile;
+        position: relative;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+  
+    @keyframes profile{
+        0%{left: -50px}
+        100%{left:20px}
+    }
+    .profile-img{
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        background: white;
+        margin-left: 2em;
+        position: relative;
+        animation-name: round;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        
+    }
+  
+    @keyframes round{
+        0%{top: -200px}
+        100%{top:0px}
+    }
+
+    .skills{
+        position: relative;
+        animation-name: rid;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        
+    }
+  
+    @keyframes rid{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
 
 
 

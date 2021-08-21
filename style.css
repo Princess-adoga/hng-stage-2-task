@@ -29,7 +29,7 @@
       width: 180px;
       border-radius: 50%;
       background: white;
-      margin-left: 2em;
+      margin-left: 2.5em;
      
   }
      
@@ -43,7 +43,7 @@
   }
   .left p{
       letter-spacing: 1px;
-      margin-left: 38px;
+      margin-left: 35px;
   }
   .profile-circle{
     height: 35px;
@@ -350,14 +350,14 @@
         border-radius: 3px;
         position: relative;
         animation-name: edu-animate;
-        animation-duration: 1.2s;
-        animation-delay: 1s;
+        animation-duration: 1.4s;
+        animation-delay: 2.2s;
         animation-timing-function: linear;
     }
     @keyframes edu-animate{
         0%{  left: -400px; opacity: 1; }
         
-        100%{  left: 20px; opacity: 15; }
+        100%{  left: 0px; opacity: 15; }
     }
 
     .expo{
@@ -399,8 +399,8 @@
         border-radius: 5px;
         position: relative;
         animation-name: rund;
-        animation-duration: 1s;
-        animation-delay: 4s;
+        animation-duration: 1.5s;
+        animation-delay: 7s;
         
     }
   
@@ -427,25 +427,25 @@
        
         animation-name: profile;
         position: relative;
-        animation-duration: 1s;
-        animation-delay: 1s;
+        animation-duration: 0.8s;
+       
         animation-fill-mode: forwards;
     }
   
     @keyframes profile{
         0%{left: -50px}
-        100%{left:20px}
+        100%{left: 20px}
     }
     .profile-img{
         height: 180px;
         width: 180px;
         border-radius: 50%;
         background: white;
-        margin-left: 2em;
+        margin-left: 3em;
         position: relative;
         animation-name: round;
-        animation-duration: 1s;
-        animation-delay: 1s;
+        animation-duration: 2s;
+        
         animation-fill-mode: forwards;
         
     }
@@ -459,7 +459,7 @@
         position: relative;
         animation-name: rid;
         animation-duration: 3s;
-        animation-delay: 1s;
+        animation-delay: 5s;
         animation-fill-mode: forwards;
         
     }
